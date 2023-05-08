@@ -8,9 +8,9 @@ const Experience = () => {
             <h1 className='text-4xl font-bold inline border-b-4' style={{color: "skyblue", background: "black"}}>Experience -
             </h1>
 
-            <br/> <br/> 
+            {/* <br/> <br/> 
             <div className= 'text-3xl font-bold'>Freelance</div>
-            <h1 style={{fontSize: "25px"}}>Full Stack Web Developer &nbsp; (Oct 2019 - Dec 2021) </h1>
+            <h1 style={{fontSize: "25px"}}>Full Stack Web Developer &nbsp; (Oct 2019 - Dec 2021) </h1> */}
 
              <br/> <br/> 
             <div className= 'text-3xl font-bold'>Helloverify India Pvt. Ltd   </div>
