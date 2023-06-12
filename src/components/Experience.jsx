@@ -24,7 +24,7 @@ const Experience = () => {
 
             <br/> <br/>
             <div className= 'text-3xl font-bold'>Velocis system Pvt. Ltd.  </div>
-            <h1 style={{fontSize: "25px"}}>Software Developer &nbsp; (Sep 2022- Current)</h1>
+            <h1 style={{fontSize: "25px"}}>Software Developer &nbsp; (Sep 2022- May 2023)</h1>
           
         </div>
         </div>
