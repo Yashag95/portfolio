@@ -32,13 +32,13 @@ const Skills = () => {
     {
       id: 4,
       src: reactImage,
-      title: "React",
+      title: "React.js",
       style: "shadow-blue-600",
     },
     {
       id: 5,
       src: node,
-      title: "Node",
+      title: "Node.js",
       style: "shadow-green-400",
     },
     {
@@ -50,7 +50,7 @@ const Skills = () => {
     {
       id: 7,
       src: github,
-      title: "Github",
+      title: "Git & Github",
       style: "shadow-pink-400",
     },
     {
@@ -70,10 +70,10 @@ const Skills = () => {
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen" >
+      className="w-full h-screen" >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white" >
         <div style={{marginTop: "100px"}}>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline" style= {{marginTop: "10px"}}>
+          <p className="text-4xl font-bold  border-gray-500 p-2 inline" style= {{marginTop: "10px"}}>
             Skills 
           </p>
         </div>

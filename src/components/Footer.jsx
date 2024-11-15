@@ -26,7 +26,7 @@ const Footer = () => {
             <img src={facebooklogo}  className= "mx-auto d-block" alt= 'fblogo' width= '130px' style={{ cursor: 'pointer' ,padding: '10px', }} />
             <img src={instagram}  className= "mx-auto d-block" alt= 'instalogo' width= '130px' style={{ cursor: 'pointer' ,padding: '10px'}} />
 
-          {/* <button type='submit' className="text-4xl font-bold border-b-4 border-gray-1000 p-1 inline" style={{borderRadius: "10ox" , color: "white"}}> <a href='https://docs.npmjs.com/cli/v6/commands/npm-build'> facebook</a></button>  */}
+          {/* <button type='submit' className="text-4xl font-bold  border-gray-1000 p-1 inline" style={{borderRadius: "10ox" , color: "white"}}> <a href='https://docs.npmjs.com/cli/v6/commands/npm-build'> facebook</a></button>  */}
     </div> </div>
 
   )

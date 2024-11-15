@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/yash-agrawal-34a2a9207/",
+      href: "https://www.linkedin.com/in/yash-agrawal95/",
       style: "rounded-tr-md",
     },
     {
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Yash's Resume New.pdf",
+      href: "/Yash's Resume New1.pdf",
       style: "rounded-br-md",
       download: true,
     },
