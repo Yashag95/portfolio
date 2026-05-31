@@ -77,7 +77,7 @@ const Home = () => {
             <div className="absolute bottom-7 left-7 right-7 rounded-2xl border border-white/70 bg-white/85 p-4 shadow-lg backdrop-blur dark:border-white/10 dark:bg-slate-900/80">
               <p className="text-sm font-black text-slate-900 dark:text-white">Currently building</p>
               <p className="mt-1 text-sm leading-6 text-slate-600 dark:text-slate-300">
-                Major revamp of a tunnel monitoring platform with 5-language support, theme integration, dashboards, MapTiler views, API-connected screens, and BIM viewer support where needed.
+                Enterprise web application modules with multilingual support, theme integration, dashboards, map-based views, API-connected screens, and 3D visualization workflows.
               </p>
             </div>
           </div>

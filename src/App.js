@@ -3,7 +3,9 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/about";
+import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -27,8 +29,10 @@ const App = () => {
         <main className="relative z-10">
           <Home />
           <About />
+          <Education />
           <Experience />
           <Skills />
+          <Certifications />
           <Contact />
         </main>
         <SocialLinks />

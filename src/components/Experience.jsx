@@ -9,7 +9,6 @@ const Experience = () => {
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="section-kicker">Experience</p>
-            <h2 className="section-title">Job responsibilities shaped around the tunnel platform revamp, React UI, dashboards, APIs, maps, and product delivery.</h2>
           </div>
           {/* <p className="max-w-xl text-base leading-7 text-slate-600 dark:text-slate-300">
             A detailed snapshot of the work from your resume, written for recruiters and hiring managers who want to understand impact, not just job titles.
@@ -66,10 +65,10 @@ const Experience = () => {
                   </ul>
                 </div>
               </div>
-              <div className="mt-6 h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent dark:via-white/10" />
+              {/* <div className="mt-6 h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent dark:via-white/10" />
               <p className="mt-4 text-xs font-black uppercase tracking-[0.22em] text-slate-400">
                 Role {String(index + 1).padStart(2, "0")}
-              </p>
+              </p> */}
             </article>
           ))}
         </div>
@@ -79,7 +78,6 @@ const Experience = () => {
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="section-kicker">Projects</p>
-            <h2 className="section-title">Selected work led by the tunnel monitoring platform revamp.</h2>
           </div>
           <a
             href="https://github.com/Yashag95"

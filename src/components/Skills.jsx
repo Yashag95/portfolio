@@ -1,5 +1,5 @@
 import React from "react";
-import { certifications, skills } from "../data/portfolioData";
+import { skills } from "../data/portfolioData";
 
 const groups = ["Languages", "Frontend", "Backend", "Databases", "3D", "Design", "Tools"];
 
@@ -9,9 +9,9 @@ const Skills = () => {
       <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
           <p className="section-kicker">Skills</p>
-          <h2 className="section-title">A practical toolkit for frontend-heavy full-stack products.</h2>
+          <h2 className="section-title">Technical skills for building scalable web applications.</h2>
           <p className="mt-5 text-base leading-7 text-slate-600 dark:text-slate-300">
-            The stack reflects the current revamp work: React, TypeScript, Redux, Tailwind CSS, API integration, dashboard UI, map-based views, theme/i18n support, and backend collaboration.
+            A focused skill set across frontend development, backend integration, responsive UI design, state management, API-driven workflows, dashboards, maps, theming, and performance optimization.
           </p>
         </div>
 
@@ -37,17 +37,6 @@ const Skills = () => {
               </div>
             );
           })}
-
-          <div className="glass-panel rounded-3xl p-6">
-            <h3 className="text-xl font-black text-slate-900 dark:text-white">Certifications</h3>
-            <div className="mt-5 grid gap-3 sm:grid-cols-2">
-              {certifications.map((item) => (
-                <div key={item} className="rounded-2xl border border-slate-200 bg-white/65 p-4 text-sm font-semibold leading-6 text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">
-                  {item}
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="mt-5 max-w-md text-sm leading-7 text-slate-600 dark:text-slate-300">
-              React and TypeScript developer working on a tunnel monitoring platform revamp with dashboard UI, MapTiler views, theme/i18n integration, API-connected screens, and BIM viewer support.
+              React and TypeScript developer building dashboard UI, map-based views, theme/i18n integration, API-connected screens, and 3D visualization workflows.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {socials.map(({ label, href, icon: Icon }) => (

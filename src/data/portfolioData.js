@@ -30,9 +30,9 @@ export const profile = {
   name: "Yash Agrawal",
   title: "Software Engineer",
   headline:
-    "Frontend-focused full-stack developer revamping a tunnel construction monitoring platform with React, TypeScript, dashboards, maps, i18n, and theme support.",
+    "Frontend-focused full-stack developer building enterprise web applications with React, TypeScript, dashboards, maps, i18n, and theme support.",
   summary:
-    "I build responsive web applications with reusable UI components, API integration, data visualization, and performance-focused frontend implementation. My current work focuses on revamping a tunnel construction monitoring platform with dashboards, 5-language i18n, dynamic theming, map-driven project views, and BIM model viewing as one feature module.",
+    "I build responsive web applications with reusable UI components, API integration, data visualization, and performance-focused frontend implementation.",
   email: "yashagarwal.ya62@gmail.com",
   phone: "+91 95203 18949",
   phoneHref: "tel:+919520318949",
@@ -42,22 +42,24 @@ export const profile = {
   github: "https://github.com/Yashag95",
   resume: "/Yash_Agrawal_updated_resume.pdf",
   location: "India",
-  availability: "Open to frontend and full-stack engineering opportunities",
+  availability: "Software Engineer | React.js | TypeScript | Full-Stack Development",
 };
 
 export const stats = [
-  { value: "5", label: "Languages integrated in current revamp project" },
+  { value: "5", label: "Languages integrated in enterprise UI workflows" },
   { value: "Theme", label: "Light and dark UI integration" },
-  { value: "Maps", label: "MapTiler-based project monitoring views" },
+  { value: "Maps", label: "Map-based analytics and location views" },
   { value: "APIs", label: "REST, async data handling, Node.js, Express.js" },
 ];
 
 export const navLinks = [
   { label: "Home", target: "home" },
   { label: "About", target: "about" },
+  { label: "Education", target: "education" },
   { label: "Experience", target: "experience" },
   { label: "Projects", target: "projects" },
   { label: "Skills", target: "skills" },
+  { label: "Certifications", target: "certifications" },
   { label: "Contact", target: "contact" },
 ];
 
@@ -75,18 +77,18 @@ export const experiences = [
     role: "Software Engineer",
     period: "June 2024 - Present",
     roleHistory: [
-      { title: "Frontend Developer", period: "June 2024 - March 2026" },
       { title: "Software Engineer", period: "April 2026 - Present" },
+      { title: "Frontend Developer", period: "June 2024 - March 2026" },
     ],
     location: "India / Switzerland collaboration",
     stack: ["React.js", "TypeScript", "Redux", "Tailwind CSS", "Three.js", "ThatOpen", "Node.js", "Express.js"],
     summary:
-      "Revamping a tunnel construction monitoring platform with 5-language support, dynamic theme integration, dashboards, map-based views, API-connected screens, and BIM model viewing as a supporting module.",
+      "Building enterprise web application modules with 5-language support, dynamic theme integration, dashboards, map-based views, API-connected screens, and 3D visualization support.",
     highlights: [
-      "Revamping a tunnel construction monitoring platform with React.js, Redux, Tailwind CSS, TypeScript, and reusable frontend components.",
+      "Developed enterprise-grade frontend modules with React.js, Redux, Tailwind CSS, TypeScript, and reusable component architecture.",
       "Integrated 5-language i18n support and dynamic theme switching across the application UI.",
-      "Implemented interactive dashboards and map-based data visualization using MapTiler APIs for project monitoring views.",
-      "Developed 3D visualization modules using Three.js and ThatOpen library to load IFC construction and building models as part of the revamp project.",
+      "Implemented interactive dashboards and map-based data visualization using mapping APIs for location-aware workflows.",
+      "Developed 3D visualization modules using Three.js and ThatOpen library for model-viewing workflows.",
       "Collaborating with a Switzerland-based team through GitHub, translating business requirements into scalable frontend solutions.",
       "Integrated REST APIs and asynchronous data handling to support smooth data flow across complex UI interactions.",
       "Developed and maintained Node.js and Express.js APIs supporting frontend modules and business workflows.",
@@ -96,7 +98,7 @@ export const experiences = [
     ],
   },
   {
-    company: "NIC via Akal Information & Velocis Systems Pvt. Ltd.",
+    company: "NIC (Akal Information & Velocis Systems Pvt. Ltd.)",
     role: "Software Developer",
     period: "July 2022 - May 2023",
     location: "India",
@@ -114,10 +116,10 @@ export const experiences = [
   },
   {
     company: "Helloverify India Private Limited",
-    role: "Executive Data Analyst",
+    role: "Data Analyst",
     period: "Jan 2022 - July 2022",
     location: "India",
-    stack: ["Power BI", "MySQL", "Excel", "SQL", "Reporting"],
+    stack: ["Power BI", "MySQL", "MS Excel", "SQL", "MS Word"],
     summary:
       "Handled high-volume metrics, validation, reporting, and workflow automation for client deliverables.",
     highlights: [
@@ -132,27 +134,28 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Tunnel Monitoring Platform Revamp",
-    type: "Major Current Project",
+    name: "Operations Analytics Dashboard",
+    type: "Dashboard Application",
     description:
-      "A revamp of a tunnel construction monitoring platform focused on frontend architecture, multilingual UI, theme integration, dashboards, map views, API-connected screens, and user experience improvements.",
+      "A portfolio-safe analytics dashboard concept focused on frontend architecture, multilingual UI, theme integration, data cards, charts, map views, API-connected screens, and responsive user experience.",
     points: [
-      "Implemented 5-language integration for the application UI using i18n-based language switching.",
-      "Added light and dark theme integration so users can switch the interface based on preference.",
-      "Developed dashboard UI modules, reusable React components, Redux data flows, and API-connected views for project monitoring.",
-      "Integrated map-based views and 3D globe/map visualization flows using MapTiler APIs.",
-      "Worked on BIM model viewing as one part of the revamp, including IFC loading with Three.js and ThatOpen where required.",
+      "Designed multilingual UI flows using i18n-based language switching.",
+      "Added light and dark theme integration for a consistent user-controlled interface.",
+      "Built reusable dashboard widgets, Redux data flows, and API-connected views.",
+      "Integrated map-based visualizations for location-aware records and regional insights.",
+      "Structured the UI for scalable charts, filters, status summaries, and drill-down views.",
     ],
   },
   {
-    name: "Tunnel Monitoring Dashboard",
-    type: "Enterprise Dashboard",
+    name: "Asset Visualization Portal",
+    type: "3D Web Application",
     description:
-      "A construction monitoring interface that combines dashboard metrics, map views, status information, and workflow tracking.",
+      "A web-based visualization concept for viewing digital assets, metadata, map locations, and status information through a clean React interface.",
     points: [
-      "Integrated MapTiler map views and geographic visualizations for project monitoring.",
-      "Created reusable dashboard components for progress, status, and data-heavy reporting.",
+      "Created reusable React components for asset details, status cards, and metadata panels.",
+      "Used Three.js-based patterns for interactive 3D model viewing and scene controls.",
       "Connected frontend modules with REST APIs and Redux-managed async flows.",
+      "Designed responsive layouts for desktop review screens and mobile-friendly summaries.",
     ],
   },
   {
@@ -178,7 +181,7 @@ export const projects = [
     ],
   },
   {
-    name: "Weather Pro Application",
+    name: "Weather Forecasting Application",
     type: "API Product",
     description:
       "A weather forecasting app using React and OpenWeather API to display real-time weather data in a clean UI.",
@@ -221,9 +224,15 @@ export const certifications = [
   "HTML, CSS, and JavaScript for Web Developers - Coursera",
 ];
 
-export const education = {
-  school: "Hemvati Nandan Bahuguna Garhwal University, Srinagar",
-  degree: "Bachelor of Computer Applications",
-  period: "2016 - 2019",
-};
-
+export const education = [
+  {
+    school: "Hemvati Nandan Bahuguna Garhwal University, Srinagar",
+    degree: "Bachelor of Computer Applications",
+    period: "2016 - 2019",
+  },
+  {
+    school: "SVM Inter College",
+    degree: "Senior Secondary Education",
+    period: "2014 - 2016",
+  },
+];

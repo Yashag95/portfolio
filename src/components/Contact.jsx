@@ -17,9 +17,9 @@ const Contact = () => {
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <p className="section-kicker">Contact</p>
-          <h2 className="section-title">Let us build something useful, polished, and fast.</h2>
+          <h2 className="section-title">Connect with me for software engineering roles.</h2>
           <p className="mt-5 text-base leading-8 text-slate-600 dark:text-slate-300">
-            Send a message through the form, call directly, or start a WhatsApp chat. The form mailer endpoint is preserved from the original portfolio.
+            Recruiters, HR teams, and hiring managers can reach out for frontend or full-stack roles, interview discussions, or details about my experience and projects.
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -75,7 +75,7 @@ const Contact = () => {
             <span className="text-sm font-black text-slate-700 dark:text-slate-200">Message</span>
             <textarea
               name="message"
-              placeholder="Tell me about the role, product, or project..."
+              placeholder="Tell me about the role or opportunity..."
               rows="8"
               required
               className="mt-2 w-full resize-none rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 text-slate-900 outline-none transition focus:border-cyan-500 focus:ring-4 focus:ring-cyan-500/15 dark:border-white/10 dark:bg-white/10 dark:text-white"
