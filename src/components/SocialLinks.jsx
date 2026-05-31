@@ -1,77 +1,25 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { socials } from "../data/portfolioData";
 
 const SocialLinks = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://www.linkedin.com/in/yash-agrawal95/",
-      style: "rounded-tr-md",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/Yashag95",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: 'mailto: yashagarwal.ya62@gmail.com',
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/Yash_Agrawal_updated_resume.pdf",
-      style: "rounded-br-md",
-      download: true,
-    },
-  ];
-
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left- fixed">
-      <ul>
-        {links.map(({ id, child, href, style, download }) => (
-          <li
-            key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-700" +
-              " " +
-              style
-            }
-          >
-            <a
-              href={href}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {child}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <aside className="fixed bottom-5 right-4 z-40 hidden flex-col gap-2 lg:flex">
+      {socials.map(({ label, href, icon: Icon }) => (
+        <a
+          key={label}
+          href={href}
+          target={href.startsWith("http") ? "_blank" : undefined}
+          rel={href.startsWith("http") ? "noreferrer" : undefined}
+          aria-label={label}
+          title={label}
+          className="group flex h-12 w-12 items-center justify-center rounded-full border border-white/70 bg-white/85 text-slate-700 shadow-lg backdrop-blur transition hover:-translate-x-1 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-700 dark:border-white/10 dark:bg-slate-900/80 dark:text-slate-200 dark:hover:text-cyan-200"
+        >
+          <Icon className="transition group-hover:scale-110" size={20} />
+        </a>
+      ))}
+    </aside>
   );
 };
 
 export default SocialLinks;
+
