@@ -217,6 +217,10 @@ export const skills = [
 ];
 
 export const certifications = [
+  {
+    title: "AWS Certified Cloud Practitioner",
+    certificatePdf: "/AWS-certificate.pdf",
+  },
   "Prompt Engineering for Developers - DeepLearning.AI",
   "Advanced Frontend React.js - Ducat, Noida",
   "Full Stack Web Development - Coding Blocks / CodeHelp",
